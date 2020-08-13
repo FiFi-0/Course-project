@@ -39,7 +39,7 @@
     font-size: 35px;
 }
 
-@media(max-width 991px) {
+@media(max-width:991px) {
     .main-navigation__logo-link {
         font-size: 28px;
     }

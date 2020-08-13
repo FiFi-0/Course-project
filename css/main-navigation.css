@@ -118,3 +118,23 @@
         font-size: 22px;
     }
 }
+
+.main-navigation__mobile-button {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .main-navigation__mobile-button {
+        display: unset;
+        background: none;
+        border: none;
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-navigation__mobile-button-image {
+        width: 25px;
+        display: block;
+    }
+}
